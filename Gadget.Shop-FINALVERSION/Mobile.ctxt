@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=Mobile
+comment0.text=\r\n\ The\ Mobile\ class,\ derived\ from\ the\ Gadget\ class,\ possesses\ a\ singular\ attribute\ representing\ the\ remaining\ calling\r\ncredit\ in\ whole\ minutes.\ This\ attribute\ is\ initialized\ within\ the\ constructor\ using\ one\ of\ the\ constructor's\ five\ parameters,\r\nand\ a\ corresponding\ accessor\ method\ is\ provided.\ The\ constructor's\ other\ parameters\ delineate\ the\ model,\ price,\r\nweight,\ and\ size\ of\ the\ mobile\ phone,\ with\ these\ values\ passed\ to\ the\ Gadget\ class\ constructor.\r\nWithin\ the\ Mobile\ class,\ a\ method\ allows\ users\ to\ augment\ their\ calling\ credit\ by\ a\ specified\ amount.\r\nIf\ the\ provided\ credit\ is\ positive,\ it\ is\ appended\ to\ the\ existing\ credit;\ otherwise,\ a\ prompt\ instructs\ the\ user\ to\ enter\ a\ positive\ amount.\r\nAdditionally,\ a\ method\ facilitates\ making\ phone\ calls,\ requiring\ the\ user\ to\ input\ the\ phone\ number\ and\ call\ duration.\ If\ sufficient\ credit\ exists,\ a\ message\ displaying\ the\ phone\ number\ and\ duration\ is\ shown,\ and\ the\ remaining\ credit\ is\ reduced\ by\ the\ call\ duration.\ Conversely,\ if\ there\ is\ insufficient\ credit,\ a\ message\ informs\ the\ user\ accordingly.\ Furthermore,\ a\ method\ is\ included\ to\ exhibit\ the\ mobile's\ details,\ adhering\ to\ the\ same\ signature\ as\ the\ Gadget\ class's\ display\ method.\ It\ invokes\ the\ Gadget\ class's\ method\ to\ exhibit\ the\ model,\ price,\ weight,\ and\ size,\ followed\ by\ an\ annotation\ indicating\ the\ remaining\ calling\ credit\ in\ minutes.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=newModel\ newPrice\ newWeight\ newSize\ newCredit
+comment1.target=Mobile(java.lang.String,\ double,\ int,\ java.lang.String,\ int)
+comment2.params=
+comment2.target=int\ getCredit()
+comment3.params=addOnCredits
+comment3.target=void\ addCredit(int)
+comment4.params=phoneNumber\ durationOfCall
+comment4.target=void\ makeACall(java.lang.String,\ int)
+comment5.params=
+comment5.target=void\ display()
+numComments=6

@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=Gadget
+comment0.text=\r\n\ \ There\ are\ four\ attributes\ in\ the\ Gadget\ class\:\ model,\ price\ (in\ pounds),\ weight\ (in\ grams),\ \r\n\ \ \ \ \ and\ size\ (e.g.,\ "71mm\ x\ 137mm\ x\ 9mm"),\ in\ that\ order.\ The\ model\ and\ size\ are\ text\ strings,\ \r\n\ \ \ \ \ the\ price\ is\ a\ decimal,\ and\ the\ weight\ is\ an\ integer.\ Every\ attribute\ has\ a\ corresponding\ accessor\ method,\r\n\ \ \ \ \ and\ they\ are\ all\ initialized\ in\ the\ constructor\ by\ assigning\ one\ of\ the\ constructor's\ four\ parameters.\r\n\ \ \ \ \ A\ display\ method\ will\ output\ the\ model,\ price,\ weight,\ and\ size\ (appropriately\ annotated).\ \r\n\r\n\ @author\ (Hasan\ H)\r\n\ @version\ (01/05/24)\r\n
+comment1.params=newModel\ newPrice\ newWeight\ newSize
+comment1.target=Gadget(java.lang.String,\ double,\ int,\ java.lang.String)
+comment1.text=\r\n\ The\ attributes\ are\ initialised\ within\ the\ constructor\ (no\ return\ type)\ \r\n\ There\ are\ four\ parameters.\ \r\n\ Within\ the\ brackets\ are\ the\ user\ inputs\ which\ are\ then\ assigned\ as\ the\r\n\ \ \ \ updated\ values\ for\ the\ class\ attributes\ \r\n
+comment2.params=
+comment2.target=java.lang.String\ getModel()
+comment3.params=
+comment3.target=double\ getPrice()
+comment4.params=
+comment4.target=int\ getWeight()
+comment5.params=
+comment5.target=java.lang.String\ getSize()
+comment6.params=
+comment6.target=void\ display()
+numComments=7

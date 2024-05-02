@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=MP3
+comment0.text=\r\nThe\ MP3\ class,\ inheriting\ from\ the\ Gadget\ class,\ possesses\ a\ single\ attribute\ denoting\ the\ available\ memory.\r\nThis\ attribute\ is\ initialized\ in\ the\ constructor\ using\ one\ of\ the\ constructor's\ five\ parameters,\r\nwith\ a\ corresponding\ accessor\ method\ provided.\ The\ other\ constructor\ parameters\ specify\ the\ model,\ price,\ weight,\r\nand\ size\ of\ the\ MP\ player,\ and\ these\ values\ are\ transmitted\ to\ the\ Gadget\ class\ constructor.\r\nAdditionally,\ the\ MP3\ class\ includes\ a\ method\ for\ downloading\ music,\ which\ accepts\ a\ parameter\ representing\ the\ memory\r\nconsumption\ of\ the\ music.\ If\ sufficient\ memory\ is\ available\ on\ the\ MP3\ player,\ the\ method\ decreases\ the\ available\ memory\ accordingly;\r\notherwise,\ an\ appropriate\ error\ message\ is\ displayed.\ Furthermore,\ a\ method\ for\ deleting\ music\ is\ included,\r\ntaking\ a\ parameter\ indicating\ the\ memory\ consumption\ of\ the\ deleted\ music\ and\ increasing\ the\ available\ memory\ of\ the\ MP3\ player\r\naccordingly.\r\n\r\n\ @author\ Hasan\ H\r\n\ @version\ (01/05/2024)\r\n
+comment1.params=newModel\ newPrice\ newWeight\ newSize\ newMemory
+comment1.target=MP3(java.lang.String,\ double,\ int,\ java.lang.String,\ int)
+comment2.params=
+comment2.target=int\ getmyGadgetMemory()
+comment3.params=memory
+comment3.target=void\ downloadMusic(int)
+comment4.params=Memory
+comment4.target=void\ deleteMusic(int)
+comment5.params=
+comment5.target=void\ display()
+numComments=6
